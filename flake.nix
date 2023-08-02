@@ -16,12 +16,12 @@
 				src = ./.;
 
 				nativeBuildInputs = with pkgs; [
-					pkgs.cmake
+					cmake
 				];
 
 				buildInputs = with pkgs; [
-					pkgs.boost
-					pkgs.SDL2
+					boost
+					SDL2
 				];
 			};
 
